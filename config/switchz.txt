@@ -1,0 +1,32 @@
+enable
+configure terminal
+
+hostname Switch-HQ
+
+no ip domain-lookup
+ip routing
+
+vlan 1
+ name Management
+exit
+
+interface Vlan1
+ ip address 10.7.91.226 255.255.255.128
+ no shutdown
+exit
+
+ip default-gateway 10.7.91.224
+
+snmp-server community RedSecureRO RO
+snmp-server contact Condor Bautista - Matrícula 2025-0791
+snmp-server location Laboratorio GNS3
+
+line con 0
+ exec-timeout 0 0
+ logging synchronous
+line vty 0 4
+ login
+exit
+
+end
+write memory
