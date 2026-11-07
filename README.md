@@ -1,4 +1,4 @@
-
+https://youtu.be/UcJ2GpUogRI
 Asignatura: Seguridad de Redes
 Estudiante: Cóndor Bautista
 Matrícula: 2025-0791
@@ -106,4 +106,8 @@ sudo netplan apply
 Verification: Ejecuta ip a para confirmar que el servidor Zabbix posee configurada la dirección IP 10.7.91.225.
 
 
-VIDEO: 
+VIDEO: https://youtu.be/UcJ2GpUogRI
+
+
+
+
